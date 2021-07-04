@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Bitter', 'serif';
+    text-align: center;
+}
+header {
+    background-color: #f8e2f7;
+    min-height: 100vh;
+}
+nav {
+    background-color: #da70d6;
+    padding: 1.5em;
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #fff;
+    padding-left: 10px;
+}
+nav a:hover {
+    background-color:  #f4d4f3;
+    padding: 1.5em;
+}
+header h1 {
+    font-size: 6em;
+    font-family: 'Noto Serif SC', 'serif';
+    margin-bottom: 0;
+}
+header h2 {
+    font-size: 3em;
+    font-family: 'Noto Serif SC', 'serif';
+    margin-bottom: 0;
+}
+@media (max-width: 425px) {
+    header h1 {
+        font-size: 4em;
+    }
+    header h2 {
+        font-size: 2em;
+    }
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.about {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin: 2em;
+}
+.about img {
+    width: 300px;
+    height: 300px;
+    border: transparent;
+    border-radius: 50%;
+}
+.about a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #da70d6;
+    display: inline-block;
+}
+.about a:hover {
+    color: #fff;
+    background-color: #da70d6;
+    padding: 8px;
+    border: 1px solid #da70d6;
+    border-radius: 50%;
+}
+.skills {
+    background-color:  #f4d4f3;
+    padding: 2em;
+    font-size: 1.4em;
+}
+.skills ul {
+    padding: 0;
+}
+.skills li {
+    list-style-type: none;
+    width: max-content;
+    padding: 20px;
+    display: inline-flex;
+}
+.contact {
+    font-size: 1.4em;
+}
+.social-links i {
+    font-size: 18px;
+    padding: 10px;
+    margin: 12px;
+}
+.fa-github:hover {
+    color: #708090;
+}
+.fa-at:hover {
+    color: #ff0000;
+}
+.fa-codepen:hover {
+    color: silver;
+}
+.fa-facebook:hover {
+    color: #0000ff;
+}
