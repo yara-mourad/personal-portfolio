@@ -7,52 +7,215 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Noto+Serif+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- start header -->
     <header>
-        <nav>
-            <a href="#1">About</a>
-            <a href="#2">Skills</a>
-            <a href="#3">Contact</a>
-        </nav>
-        <h1>Welcome</h1>
-        <h2>I'm Jane Doe</h2>
-        <h2>Front-end Web Developer</h2>
+        <div class="container">
+            <a href="#">
+                <i class="fas fa-layer-group logo"></i>
+            </a>
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <div class="hire-me">
+                    <a href="#">hire me</a>
+                </div>
+            </nav>
+        </div>
     </header>
-    <div class="about"  id="1">
-        <h2>About Me </h2>
-        <img src="Images/christina-wocintechchat-com-2JDDn7iSGH8-unsplash.jpg" alt="coding">
-        <p>
-            I am a Front end developer having an experience of 3+ years. Currently in the process of enhancing my skills and looking for some new opportunities. Iam <strong>Available</strong> for Hire. My Hour Old Orice Is <del>$10</del> now the New Price is <strong>$30</strong> These are some of my projects <a href="#" target="_blank">Click Me</a>
-        </p>
-    </div>
-    <div class="skills" id="2">
-        <h2>My skills</h2>
-        <ul>
-            <li>HTML5</i></li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>bootstrap</li>
-            <li>Ajax</li>
-            <li>Json</li>
-            <li>Vue.js</li>
-            <li>React.js</li>
-            <li>Python</li>
-        </ul>
-    </div>
-    <div class="contact" id="3">
-        <h2>Contact Me</h2>
-        <p>Stay in Touch</p>
-        <div class="social-links">
-            <i class="fab fa-github"> GitHub</i>
-            <i class="fas fa-at"> Gmail</i>
-            <i class="fab fa-codepen"> CodePen</i>
-            <i class="fab fa-facebook"> Facebook</i>
+    <!-- end header -->
+
+    <!-- start home content -->
+    <div class="home">
+        <div class="container">
+            <div class="intro-text">
+                <h2>Welcome</h2>
+                <h1>I'm Jane Doe</h1>
+                <h2>UI/UX Designer</h2>
+                <a href="#">download CV</a>
+            </div>
         </div>
     </div>
+    <!-- end home content -->
+
+    <!-- start about section -->
+    <section id="about">
+        <div class="container">
+            <img src="Images/noah-buscher-8A7fD6Y5VF8-unsplash.jpg" alt="owner" class="owner">
+            <div class="about-text">
+                <h2>About Me </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fuga delectus porro, aliquid rerum autem ipsam fugiat cupiditate sed sunt, corporis, magni ipsa placeat. Eveniet quod quas nam assumenda excepturi!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sint, tempore, nemo vitae labore esse a qui ad mollitia repudiandae libero dolor? Molestias distinctio facere consectetur ea aut nesciunt velit?
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+
+    <!-- start services section -->
+    <section id="services">
+        <div class="container">
+        <h2>services</h2>
+            <ul class="services-grid">
+                <li>
+                    <div class="services-card-wrapper">
+                        <i class="fas fa-cog serv-icon"></i>
+                        <h3>creative design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magni fuga consectetur, at minus voluptatibus nemo veniam explicabo excepturi cum doloribus labore saepe dicta sit aspernatur repellat earum, fugit voluptates.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="services-card-wrapper">
+                        <i class="fas fa-code serv-icon"></i>
+                        <h3>clean code</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat modi itaque, molestias quae eveniet, dolor nihil laborum dolores reiciendis explicabo minima veritatis, officia aliquid recusandae fugiat nostrum praesentium temporibus omnis?</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="services-card-wrapper">
+                        <i class="fas fa-mobile-alt serv-icon"></i>
+                        <h3>responsive design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fugiat distinctio, placeat eum perspiciatis sapiente necessitatibus maiores, sint expedita, ipsa earum! Dolorem sunt facere libero inventore, mollitia illum asperiores assumenda.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="services-card-wrapper">
+                        <i class="fab fa-bootstrap serv-icon"></i>
+                        <h3>bootstrap 5</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ea expedita recusandae cum quasi minus, earum numquam doloremque commodi repudiandae quidem aperiam fuga iusto voluptas aliquid eveniet cumque laudantium! Excepturi.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="services-card-wrapper">
+                        <i class="fas fa-icons serv-icon"></i>
+                        <h3>font icon</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis iste harum ea provident ipsa impedit iure deserunt veritatis voluptatibus repellat earum reiciendis tempore fuga sapiente hic minus, amet maiores.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="services-card-wrapper">
+                        <i class="fas fa-info serv-icon"></i>
+                        <h3>continuous support</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla est dolorem veniam ex officiis recusandae natus cupiditate ullam necessitatibus autem molestias dignissimos doloremque accusamus, tempora, vero harum voluptates? Consequuntur, corrupti.</p>
+                    </div>
+                </li>   
+            </ul>
+        </div>
+    </section>
+    <!-- end services section -->
+
+    <!-- start success outcomes -->
+    <section id="outcomes">
+        <div class="container">
+            <div class="records">
+                <div class="records-card">
+                    <i class="far fa-user"></i>
+                    <span>150</span>
+                    <h3>happy clients</h3>
+                </div>
+                <div class="records-card">
+                    <i class="far fa-check-circle"></i>
+                    <span>300</span>
+                    <h3>projects compleated</h3>
+                </div>
+                <div class="records-card">
+                    <i class="fas fa-globe-americas"></i>
+                    <span>157</span>
+                    <h3>nationality</h3>
+                </div>
+                <div class="records-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>5876</span>
+                    <h3>lins of code</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end success outcomes -->
+
+    <!-- start portfolio section-->
+    <section id="portfolio">
+        <div class="container">
+            <h2>portfolio</h2>
+            <ul class="portfolio-btns">
+                <li><a href="#" class="active">all</a></li>
+                <li><a href="#">design</a></li>
+                <li><a href="#">development</a></li>
+            </ul>
+            <div class="portfolio-wrapper">
+                <img src="Images/jj-jordan-Ny5YFzSkf0E-unsplash.jpg" alt="samples">
+                <img src="Images/mae-mu-XTztXbv6gMs-unsplash.jpg" alt="samples">
+                <img src="Images/mahbod-akhzami-IJCd3rFz03A-unsplash.jpg" alt="samples">
+                <img src="Images/jj-jordan-w9QdAC1f8-0-unsplash.jpg" alt="samples">
+                <img src="Images/mae-mu-8Vh6ulKc50o-unsplash.jpg" alt="samples">
+                <img src="Images/mae-mu-s6S8IgEN6-4-unsplash.jpg" alt="samples">
+            </div>
+        </div>
+    </section>
+    <!-- end portfolio section-->
+
+    <!-- start contact section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Stay in Touch</h2>
+            <div class="contact-wrapper">    
+                <form action="#" method="post">
+                    <div class="form-top">
+                        <input type="text" name="unsername" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email"> 
+                    </div>
+                    <textarea name="subject" placeholder="Subject"></textarea> <br>
+                    <input type="submit" value="Send">
+                </form>
+                <div class="info">
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>3983 Thompson Street, Los Angeles, CA, 90017.</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-phone"></i>
+                        <p>
+                            562-637-1544 <br>
+                            323-240-1550
+                        </p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-at"></i>
+                        <p>hello@mail.com</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- end contact section -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <i class="fab fa-github"> GitHub</i>
+                <i class="fas fa-at"> Gmail</i>
+                <i class="fab fa-codepen"> CodePen</i>
+                <i class="fab fa-facebook"> Facebook</i>
+            </div>
+            <p>made with <i class="far fa-heart"></i> by yara</p>
+        </div>
+        <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+    </footer>
+    <!-- end footer -->
 </body>
 </html>
